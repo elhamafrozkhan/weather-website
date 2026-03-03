@@ -86,7 +86,7 @@ app.get('*', (req, res)=>{
 });
 
 app.listen(port, () =>{
-    console.log('Server is up on port .' + port);    
+    console.log('Server is up on port ' + port);    
 })
 
    // "test": "echo \"Error: no test specified\" && exit 1"
